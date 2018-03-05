@@ -18,12 +18,6 @@ Vue.component('FarmSelect', require('@/components/form/dict/select/farmSelect.vu
 // 字典 - 淘汰原因 - 选项
 Vue.component('EliminationReasonSelect', require('@/components/form/dict/select/eliminationReasonSelect.vue'));
 
-// 不重复
-Vue.component('NoRepeat', require('@/components/form/no-repeat/index.vue'));
-
-// 公式编辑
-Vue.component('Formula', require('@/components/form/Formula/index.vue'));
-
 // 树 基础
 Vue.component('Ztree', require('@/components/tree/core.vue'));
 

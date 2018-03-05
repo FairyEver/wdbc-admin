@@ -142,31 +142,12 @@ const store = new Vuex.Store({
         // 权限列表
         permissionList: [],
         // 左侧菜单
-        navList: [],
-        // noRepeat 组件专用
-        noRepeatUsed: [],
-        noRepeatPool: [],
-        environment: _environment
+        navList: []
     },
     getters: {
 
     },
     mutations: {
-        // NoRepeat
-        setNoRepeatPool (state, data) {
-            state.noRepeatPool = data;
-            localStorage.noRepeatPool = JSON.stringify(state.noRepeatPool);
-        },
-        setNoRepeatUsed (state, data) {
-            state.noRepeatUsed = data;
-            localStorage.noRepeatUsed = JSON.stringify(state.noRepeatUsed);
-        },
-        cleanNoRepeat (state) {
-            state.noRepeatPool = [];
-            localStorage.noRepeatPool = JSON.stringify(state.noRepeatPool);
-            state.noRepeatUsed = [];
-            localStorage.noRepeatUsed = JSON.stringify(state.noRepeatUsed);
-        },
         // 权限列表
         setPermissionList (state, list) {
             state.permissionList = list;

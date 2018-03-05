@@ -26,20 +26,6 @@ export default {
             name: 'components-dict',
             title: '字典组件',
             component: resolve => { require(['@/views/demo/components/dict/index.vue'], resolve); }
-        },
-        {
-            path: 'components/no-repeat/play',
-            icon: 'ios-book',
-            name: 'components-no-repeat-play',
-            title: '禁止重复 实验室',
-            component: resolve => { require(['@/views/demo/components/no-repeat/play.vue'], resolve); }
-        },
-        {
-            path: 'components/no-repeat/base',
-            icon: 'ios-book',
-            name: 'components-no-repeat-base',
-            title: '禁止重复 模板',
-            component: resolve => { require(['@/views/demo/components/no-repeat/base.vue'], resolve); }
         }
     ]
 };
