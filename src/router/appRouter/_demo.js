@@ -14,13 +14,6 @@ export default {
             component: resolve => { require(['@/views/demo/components/iview/base/index.vue'], resolve); }
         },
         {
-            path: 'components/iview/composite',
-            icon: 'settings',
-            name: 'components-iview-composite',
-            title: 'iview 合成组件',
-            component: resolve => { require(['@/views/demo/components/iview/composite/index.vue'], resolve); }
-        },
-        {
             path: 'components/dict',
             icon: 'ios-book',
             name: 'components-dict',
