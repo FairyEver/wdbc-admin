@@ -25,15 +25,10 @@ import '../plugins/ztree/js/jquery.ztree.excheck.min.js';
 import '../plugins/ztree/js/jquery.ztree.exhide.min.js';
 import '../plugins/ztree/css/zTreeStyle/zTreeStyle.css';
 
-// MD编辑器
-import mavonEditor from 'mavon-editor';
-import 'mavon-editor/dist/css/index.css';
-
 Vue.use(VueRouter);
 Vue.use(Vuex);
 Vue.use(VueI18n);
 Vue.use(iView);
-Vue.use(mavonEditor);
 
 // 自动设置语言
 const navLang = navigator.language;
