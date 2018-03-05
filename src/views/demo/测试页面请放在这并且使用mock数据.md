@@ -1,0 +1,1 @@
+mock语法文档 http://mockjs.com/
