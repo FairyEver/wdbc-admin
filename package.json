@@ -23,10 +23,7 @@
   "dependencies": {
     "area-data": "^1.0.0",
     "axios": "^0.15.3",
-    "clipboard": "^1.5.12",
     "countup": "^1.8.2",
-    "cropperjs": "^1.1.2",
-    "frappe-charts": "^0.0.8",
     "iview": "^2.5.0-beta.1",
     "iview-area": "^1.5.2",
     "jquery": "^3.2.1",
@@ -35,7 +32,6 @@
     "moment": "^2.20.1",
     "prismjs": "^1.8.4",
     "qs": "^6.5.1",
-    "simplemde": "^1.11.2",
     "sortablejs": "^1.6.1",
     "tinymce": "^4.7.1",
     "vue": "^2.5.2",
