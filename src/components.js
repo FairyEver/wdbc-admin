@@ -35,8 +35,6 @@ Vue.component('PageList', require('@/components/page/list.vue'));
 
 // 数据检查
 Vue.component('CodeCard', require('@/components/code/card.vue'));
-// JsonEditor
-Vue.component('JsonEditor', require('@/components/jsonEditor/index.vue'));
 
 // 布局组件 标题
 Vue.component('LayoutHeader', require('@/components/layout/header/index.vue'));
