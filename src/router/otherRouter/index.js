@@ -2,7 +2,6 @@ import Main from '@/views/core/Main.vue';
 
 import core from './_core';
 import sys from './_sys';
-import db from './_db';
 import gen from './_gen';
 
 import cj from './_manage/cj';
@@ -21,7 +20,6 @@ export default {
     children: [
         ...core,
         ...sys,
-        ...db,
         ...gen,
         ...stage1,
         ...stage2,
