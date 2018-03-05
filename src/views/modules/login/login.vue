@@ -64,7 +64,7 @@ export default {
             form: {
                 userName: 'sadmin',
                 password: 'sadmin',
-                server: 'http://10.98.1.200:5080'
+                server: 'http://192.168.164.120:6080'
             },
             rules: {
                 userName: [
@@ -76,20 +76,7 @@ export default {
             },
             loginBtnLoading: false,
             serverList: [
-                { value: 'http://10.98.1.200:5080', label: '开发' },
-                { value: 'http://10.1.1.132:80', label: '测试' },
-                { value: 'http://10.1.1.132:8088', label: 'qas' },
-                { value: 'http://192.168.164.129:8080', label: '周华国' }, //
-                { value: 'http://192.168.164.135:5080', label: '郑炜' }, //
-                { value: 'http://192.168.164.130:5080', label: '郑炜 Mac' }, //
-                { value: 'http://192.168.164.120:6080', label: '王璐' }, //
-                { value: 'http://192.168.164.111:8080', label: '郭永辉' }, //
-                { value: 'http://192.168.164.170:8080', label: '后培中 PC' }, //
-                { value: 'http://192.168.164.117:8080', label: '后培中' }, //
-                { value: 'http://192.168.164.114:8080', label: '王玺斌' }, //
-                { value: 'http://192.168.164.112:7080', label: '高鹏升' }, //
-                { value: 'http://192.168.162.119:8888', label: '樊晓旺' },
-                { value: 'http://192.168.164.134:80', label: '付亚军' } //
+                { value: 'http://192.168.164.120:6080', label: 'wl' }
             ]
         };
     },
