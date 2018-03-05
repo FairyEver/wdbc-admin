@@ -5,6 +5,4 @@ import { all, spread, axios, axiosToken, axiosErrorHandler } from '@/plugins/axi
 import Vuex from 'vuex';
 import Cookies from 'js-cookie';
 import clipboard from 'clipboard';
-import html2canvas from 'html2canvas';
-import rasterizehtml from 'rasterizehtml';
 import moment from 'moment';
