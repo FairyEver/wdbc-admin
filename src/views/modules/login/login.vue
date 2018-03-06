@@ -98,6 +98,7 @@ export default {
             }
         },
         showSwitchServer () {
+            console.log(this.$store.state.environment)
             switch (this.$store.state.environment) {
                 case 'online':
                     return false;

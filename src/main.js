@@ -137,7 +137,9 @@ const store = new Vuex.Store({
         // 权限列表
         permissionList: [],
         // 左侧菜单
-        navList: []
+        navList: [],
+        // environment
+        environment: _environment
     },
     getters: {
 
