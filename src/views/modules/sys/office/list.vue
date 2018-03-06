@@ -12,9 +12,9 @@
                 <Card dis-hover :bordered="false">
                     <p slot="title"><Icon type="briefcase"></Icon> 组织机构</p>
                     <a href="#" slot="extra" @click.prevent="refreshOffice"><Icon type="ios-loop-strong"></Icon> 刷新</a>
-                    <div style="margin-bottom:20px;">
+                    <!-- <div style="margin-bottom:20px;">
                         <Input v-model="officeKeyword" placeholder="输入关键字进行筛选"></Input>
-                    </div>
+                    </div> -->
                     <div style="height: 400px; overflow: scroll;">
                         <Ztree
                             ref="ztree"
@@ -59,7 +59,7 @@ export default {
     },
     data () {
       return {
-            officeKeyword: '',
+            // officeKeyword: '',
             treeData: [],
             treeDataFilter: [],
             // 设置
@@ -107,12 +107,12 @@ export default {
     mounted () {
         this.getTreeData();
     },
-    watch: {
-        officeKeyword (value) {
-            this.$refs.ztree.destroy();
-            this.filterOffice();
-        }
-    },
+    // watch: {
+    //     officeKeyword (value) {
+    //         this.$refs.ztree.destroy();
+    //         this.filterOffice();
+    //     }
+    // },
     methods: {
         dataTransformer (data) {
             // [可选] 请求到的数据可以在这里转换后再传递给表格
@@ -130,11 +130,11 @@ export default {
             this.officeKeyword = '';
             this.getTreeData();
         },
-        filterOffice () {
-            this.treeDataFilter = this.treeData.filter(ele => {
-                return ele.name.indexOf(this.officeKeyword) >= 0;
-            });
-        },
+        // filterOffice () {
+        //     this.treeDataFilter = this.treeData.filter(ele => {
+        //         return ele.name.indexOf(this.officeKeyword) >= 0;
+        //     });
+        // },
         getTreeData () {
             this.$refs.ztree.destroy();
             axiosToken({
